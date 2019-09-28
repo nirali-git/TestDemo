@@ -21,7 +21,11 @@ $response = curl_exec($curl);
 $err = curl_error($curl);
 
 curl_close($curl);
+curl_close($curl);
+curl_close($curl);
+curl_close($curl);
+ 
+echo '<pre>'; print_r($err);die; 
+echo '<pre>'; print_r($err);die; 
+echo '<pre>'; print_r($err);die; 
 
-echo '<pre>'; print_r($err);die; 
-echo '<pre>'; print_r($err);die; 
-echo '<pre>'; print_r($err);die; 
