@@ -19,7 +19,8 @@ curl_setopt_array($curl, array(
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
+
 curl_close($curl);
 
-//edited in nirali branch
 
+echo '<pre>'; print_r($err);die; 
