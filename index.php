@@ -22,7 +22,11 @@ $err = curl_error($curl);
 //rewer
 
 curl_close($curl);
+curl_close($curl);
+curl_close($curl);
+curl_close($curl);
+ 
+echo '<pre>'; print_r($err);die; 
+echo '<pre>'; print_r($err);die; 
+echo '<pre>'; print_r($err);die; 
 
-echo '<pre>'; print_r($err);die; 
-echo '<pre>'; print_r($err);die; 
-echo '<pre>'; print_r($err);die; 
