@@ -19,11 +19,16 @@ curl_setopt_array($curl, array(
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
+//rewer
 
 curl_close($curl);
 curl_close($curl);
 curl_close($curl);
+
 22222222
+
+111111
+
 curl_close($curl);
  
 echo '<pre>'; print_r($err);die; 
